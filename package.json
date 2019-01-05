@@ -17,5 +17,16 @@
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
         "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-babel-minify": "^0.5.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^3.0.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.1"
     }
 }
