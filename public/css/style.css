@@ -1,3 +1,23 @@
+#painel .blue {
+  border-color: #0d4a96; }
+  #painel .blue > .panel-heading {
+    color: #f7f7f7;
+    background-color: #0d4a96;
+    border-color: #0d4a96; }
+
+#painel .orange {
+  border-color: #e85e0d; }
+  #painel .orange > .panel-heading {
+    color: #f7f7f7;
+    background-color: #e85e0d;
+    border-color: #e85e0d; }
+
+#painel .green {
+  border-color: #0d4a96; }
+  #painel .green > .panel-heading {
+    color: #f7f7f7;
+    background-color: #0d4a96;
+    border-color: #0d4a96; }
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 

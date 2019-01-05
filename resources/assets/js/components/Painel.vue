@@ -1,6 +1,6 @@
 <template>
 
-    <div class="panel panel-default">
+    <div v-bind:class="defineCor">
         <div class="panel-heading">{{titulo}}</div>
 
         <div class="panel-body">
@@ -14,7 +14,13 @@
 export default {
     props:[
         'titulo',
+        'cor',
         'conteudo'
     ],
+    computed: {
+        defineCor: function() {
+            return "panel "+ (this.cor || "panel-default");
+        }
+    }
 }
 </script>

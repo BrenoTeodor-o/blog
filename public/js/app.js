@@ -43723,7 +43723,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    props: ['titulo', 'conteudo']
+    props: ['titulo', 'cor', 'conteudo'],
+    computed: {
+        defineCor: function defineCor() {
+            return "panel " + (this.cor || "panel-default");
+        }
+    }
 });
 
 /***/ }),
@@ -43734,7 +43739,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "panel panel-default" }, [
+  return _c("div", { class: _vm.defineCor }, [
     _c("div", { staticClass: "panel-heading" }, [_vm._v(_vm._s(_vm.titulo))]),
     _vm._v(" "),
     _c("div", { staticClass: "panel-body" }, [_vm._t("default")], 2)
