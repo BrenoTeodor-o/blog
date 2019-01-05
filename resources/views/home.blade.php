@@ -10,9 +10,7 @@
                     Teste
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-12">
-                            <painel titulo="Dashboard 1" cor="blue">
-                                Teste
-                            </painel>        
+                            <caixa></caixa>        
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <painel titulo="Dashboard 2" cor="panel-warning">
