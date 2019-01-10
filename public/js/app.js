@@ -1100,7 +1100,10 @@ Vue.component('example-component', __webpack_require__(39));
 Vue.component('topo', __webpack_require__(42));
 Vue.component('painel', __webpack_require__(45));
 Vue.component('caixa', __webpack_require__(48));
+<<<<<<< HEAD
 Vue.component('pagina', __webpack_require__(62));
+=======
+>>>>>>> 80037f9cb91946b49498efcf3e68a42a276a0cb1
 
 var app = new Vue({
   el: '#app'
@@ -43575,9 +43578,9 @@ var render = function() {
           _vm._v(" "),
           _c("a", { staticClass: "navbar-brand", attrs: { href: _vm.url } }, [
             _vm._v(
-              "\r\n                    " +
+              "\n                    " +
                 _vm._s(_vm.titulo) +
-                "\r\n                "
+                "\n                "
             )
           ])
         ]),
@@ -43590,7 +43593,7 @@ var render = function() {
           },
           [
             _c("ul", { staticClass: "nav navbar-nav" }, [
-              _vm._v("\r\n                     \r\n                ")
+              _vm._v("\n                     \n                ")
             ]),
             _vm._v(" "),
             _c(
@@ -43871,6 +43874,7 @@ if (false) {
 
 // removed by extract-text-webpack-plugin
 
+<<<<<<< HEAD
 /***/ }),
 /* 52 */,
 /* 53 */,
@@ -43988,5 +43992,7 @@ if (false) {
   }
 }
 
+=======
+>>>>>>> 80037f9cb91946b49498efcf3e68a42a276a0cb1
 /***/ })
 /******/ ]);
