@@ -2,28 +2,34 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 #painel .blue {
-  border-color: #0d4a96; }
+  border-color: #063cfe; }
   #painel .blue > .panel-heading {
     color: #f7f7f7;
-    background-color: #0d4a96;
-    border-color: #0d4a96; }
+    background-color: #063cfe;
+    border-color: #063cfe; }
 
 #painel .orange {
-  border-color: #e85e0d; }
+  border-color: #f39c12; }
   #painel .orange > .panel-heading {
     color: #f7f7f7;
-    background-color: #e85e0d;
-    border-color: #e85e0d; }
+    background-color: #f39c12;
+    border-color: #f39c12; }
 
 #painel .green {
-  border-color: #0d4a96; }
+  border-color: #063cfe; }
   #painel .green > .panel-heading {
     color: #f7f7f7;
-    background-color: #0d4a96;
-    border-color: #0d4a96; }
+    background-color: #063cfe;
+    border-color: #063cfe; }
 
-#caixa .bg-aqua {
-  background-color: #00c0ef !important; }
+#caixa .orange {
+  background-color: #f39c12; }
+
+#caixa .blue {
+  background-color: #063cfe; }
+
+#caixa .red {
+  background-color: #dd4b39; }
 
 #caixa .small-box h3 {
   z-index: 5;
